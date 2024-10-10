@@ -117,7 +117,8 @@ p {
     justify-content: space-around;
     gap: 90;
     padding: 48px;
-
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 
 }
 
@@ -152,5 +153,7 @@ p {
     justify-content: space-around;
     gap: 32;
     padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 
 }
