@@ -205,9 +205,9 @@ p {
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 40px;
-    gap: 50;
+    gap: 30px;
 
 }
 
@@ -215,19 +215,76 @@ p {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
-    margin-right: 20px;
+
 }
 
 .box-2 {
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
-    margin-right: 20px;
+
 }
 
 .box-3 {
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
-    margin-right: 20px;
+
+}
+
+.mynext_target {
+    width: 75%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.react-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 40px;
+    border: 1px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 50px;
+}
+
+.react_image {
+    width: 24%;
+}
+
+.node-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 40px;
+    border: 1px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 50px;
+}
+
+.mongo-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding: 40px;
+    border: 1px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    gap: 50px;
 }
