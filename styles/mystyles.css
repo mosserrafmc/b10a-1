@@ -288,3 +288,52 @@ p {
     background: rgb(255, 255, 255);
     gap: 50px;
 }
+
+.support_section {
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 313px;
+    margin: 50px auto 50px auto;
+    padding: 65px 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.ss-heading {
+    color: white;
+}
+
+#form_input {
+    width: 500px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#form_submit {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
